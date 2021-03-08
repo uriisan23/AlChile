@@ -1,0 +1,155 @@
+﻿<!doctypee html>
+
+<html>
+<head>
+    <title>Al chile/Contacto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./BS/styles.css" />
+</head>
+
+<body>
+
+
+
+    <!--  inicia la cabcera -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header col-sm-2">
+                <button type="button" class="navbar-toggle "  data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                  
+                </button>
+               
+           
+
+             <img src="img/alchile-neg.jpg" class="col-sm-3 navIcon" />
+                <a class="navbar-brand" href="#"></a>
+                
+            </div>
+           
+            <div class="collapse navbar-collapse" id="myNavbar">
+                
+                <ul class="nav navbar-nav">
+                   
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+
+                   
+              
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style="background-color:black;margin:none">
+                            Mas . .
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="galeria.html">Galeria</a></li>
+                            <li><a href="precios.html">Precios</a></li>
+                            <li><a href="http://www.facebook.com/alchilefood">Facebook</a></li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--                            empieza formulario-->
+
+    <div class="container">
+        <h2>Ingresa tus datos para información<small> o haz click en el icono de correo  <a href="mailto:uriel.sanchezl@alumnos.sabes.edu.mx"><span class="glyphicon glyphicon-envelope"></span></a> </small></h2>
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+
+                <!--                          textbox nombre-->
+                <label class="control-label col-sm-2" for="email">Nombre:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="pwd" placeholder="ingresa tu nombre">
+                </div>
+            </div>
+
+
+            <!--                          textbox telefono-->
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Telefono:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="pwd" placeholder="lada + 7 digitos">
+                </div>
+            </div>
+
+
+            <!--                          textbox correo-->
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">E-mail:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="pwd" placeholder="email@dominio">
+                </div>
+            </div>
+
+
+            <!--                          textbox nombre-->
+            <div class="form-group ">
+                <label class="control-label col-sm-2" for="comment">Commentarios:</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" rows="5" id="comment" placeholder="200 palabras maximo"></textarea>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <!--   <button type="submit" class="btn btn-default" data-toggle="modal" data-target="#myModal">Submit</button>  -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!--                                     termina formulario-->
+
+                                                                                                 
+
+
+
+    <footer class="container-fluid text-center">
+        <p>Al chile Food Service </p>
+        <p>Boulevard de la Nación 1567 Col.Centro, Querétaro.</p>
+    </footer>
+
+
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Al chile</h4>
+                </div>
+                <div class="modal-body">
+                    <p>En breve nos pondremos en contacto contigo, Gracias por tu preferencia!!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+</div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
